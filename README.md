@@ -4,7 +4,8 @@ This repository contains solution to July Challenge 2020. All the solutions have
 authored by the repository owner `@amitrajitbose`.
 
 Please note that most of the solutions do not obey good software engineering and clean code
-practices, because they were solely submitted for the purpose of competitive programming.
+practices, because they were solely submitted for the purpose of competitive programming
+and solving the given problem under time constraint.
 
 ----------------
 
