@@ -9,7 +9,7 @@ def checkDirection(n, g):
 
 class Solution:
     def arrangeCoins(self, n: int) -> int:
-        low, high = 0, (2**31)-1
+        low, high = 0, n
         while low < high:
             mid = (low + high) // 2
             x = checkDirection(n, mid)
