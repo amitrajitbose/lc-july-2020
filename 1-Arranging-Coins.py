@@ -11,7 +11,7 @@ class Solution:
     def arrangeCoins(self, n: int) -> int:
         low, high = 0, n
         while low < high:
-            mid = (low + high) // 2
+            mid = low + ((high - low) // 2)
             x = checkDirection(n, mid)
             if x == 0:
                 return mid
