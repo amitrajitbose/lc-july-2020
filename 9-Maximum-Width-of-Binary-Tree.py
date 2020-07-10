@@ -16,8 +16,8 @@ class Solution:
             maximum = max(maximum, level[-1][1] - level[0][1] + 1)
             new_level = []
             for node, place in level:
-                if node.left: new_level.append((node.left, 2*place))
-                if node.right: new_level.append((node.right, 2*place + 1))
+                if node.left: new_level.append((node.left, 2*place + 1))
+                if node.right: new_level.append((node.right, 2*place + 2))
             level = new_level
             
         return maximum
